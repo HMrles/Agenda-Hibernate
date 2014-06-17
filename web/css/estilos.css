@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/06/2014, 06:42:32 PM
+    Author     : Hugo
+*/
+
+body{
+    background: olive;
+    color: white;
+    font-family: Helvetica, Arial;
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    text-shadow:5px 5px 10px rgba(0,0,0,0.5);
+}
+
+#tabla{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 45px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+#tabla th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+#tabla td
+{
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	padding: 6px 8px;
+}
+#tabla tbody tr:hover td
+{
+	color: #009;
+}
+
